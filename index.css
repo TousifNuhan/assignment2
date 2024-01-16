@@ -71,19 +71,21 @@
 
 .banner {
     margin: var(--margins);
+    height: 800px;
+    background: url('Images/Group\ 13\ \(1\)\ \(1\).png') no-repeat center center/cover;
+    border-radius: 16px;
+    object-fit: cover; 
 }
 
 
 .banner .img {
     /* border: 2px solid rebeccapurple; */
-    background: url('Images/Group\ 13\ \(1\)\ \(1\).png');
-    background-repeat: no-repeat;
+   
     position: absolute;
-    height: 100%;
-    width: 80%;
-    border-radius: 16px;
-
-
+    /* background-size: cover; */
+    height: 80%;
+    width: 85%;
+   
 }
 
 .banner-title {
@@ -190,3 +192,7 @@
     border: none;
 }
 
+.description-img{
+    margin: var(--margins); 
+    display: flex;
+}
